@@ -81,6 +81,8 @@ import javafx.stage.Stage;
                 if (startCityDropDown.getValue().equals("Own coordinates")) {
                     lat1Input.setPromptText("e.g. 44.3617");
                     long1Input.setPromptText("e.g. -76.8104");
+                    lat1Input.setEditable(true);
+                    long1Input.setEditable(true);
                 } else if(startCityDropDown.getValue().equals("New York City")) {
                     lat1Input.setText("40.6635");
                     long1Input.setText("-73.9387");
@@ -171,6 +173,8 @@ import javafx.stage.Stage;
                 if (endCityDropDown.getValue().equals("Own coordinates")) {
                     lat2Input.setPromptText("e.g. 44.3617");
                     long2Input.setPromptText("e.g. -76.8104");
+                    lat2Input.setEditable(true);
+                    long2Input.setEditable(true);
                 } else if(endCityDropDown.getValue().equals("New York City")) {
                 lat2Input.setText("40.6635");
                 long2Input.setText("-73.9387");
